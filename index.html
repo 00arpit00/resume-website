@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arpit Agarwal — DevOps Engineer and Cloud Consultant</title>
+  <meta name="description" content="Arpit Agarwal — DevOps Engineer and Cloud Consultant at AWS Professional Services. The journey from QA automation to AWS deployment support to enterprise cloud modernization.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Scroll-driven "deploy progress" bar (decorative; updated by js/animations.js). -->
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <!-- Sticky header: brand, section navigation, theme toggle (reachable on every section). -->
+  <header class="site-header">
+    <a class="brand" href="#hero"><span class="site-name">Arpit Agarwal</span></a>
+    <nav class="site-nav" aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#impact">Impact</a></li>
+        <li><a href="#experience">Journey</a></li>
+        <li><a href="#skills">Toolbox</a></li>
+        <li><a href="#projects">Open source</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" type="button" aria-label="Switch to light theme" aria-pressed="false">
+      <span class="toggle-icon" aria-hidden="true"></span>
+      <span class="toggle-text" aria-hidden="true"></span>
+    </button>
+  </header>
+
+  <main id="main">
+    <!-- Hero: first section in <main> -->
+    <section id="hero" aria-labelledby="hero-heading">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 id="hero-heading">Arpit Agarwal</h1>
+      <p class="hero-title">DevOps Engineer and Cloud Consultant</p>
+      <p class="hero-rotator-line">
+        <span class="sr-only">DevOps engineer, cloud consultant, modernization specialist, mentor, and open-source author.</span>
+        <span aria-hidden="true">I'm a <span class="hero-rotator" data-words="DevOps engineer|cloud consultant|modernization specialist|mentor|open-source author">DevOps engineer</span></span>
+      </p>
+      <p class="hero-summary">DevOps Engineer and Cloud Consultant with 8+ years of experience architecting AWS cloud-native solutions, specializing in enterprise modernization, infrastructure automation, and Kubernetes.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#experience">Follow the journey</a>
+        <a class="btn btn-ghost" href="Latest_Arpit_Agarwal_Resume_Oct2026.pdf" download>Download résumé</a>
+      </div>
+
+      <!-- My career, drawn as a CI/CD pipeline. -->
+      <ol class="career-pipeline" aria-label="Career pipeline: test, deploy, deliver, next">
+        <li class="cp-stage is-done">
+          <span class="cp-node" aria-hidden="true"></span>
+          <span class="cp-label">Test</span>
+          <span class="cp-sub">QA InfoTech · 2018</span>
+        </li>
+        <li class="cp-stage is-done">
+          <span class="cp-node" aria-hidden="true"></span>
+          <span class="cp-label">Deploy</span>
+          <span class="cp-sub">AWS Support · 2019</span>
+        </li>
+        <li class="cp-stage is-running">
+          <span class="cp-node" aria-hidden="true"></span>
+          <span class="cp-label">Deliver</span>
+          <span class="cp-sub">AWS ProServe · 2025</span>
+        </li>
+        <li class="cp-stage is-queued">
+          <span class="cp-node" aria-hidden="true"></span>
+          <span class="cp-label">Next</span>
+          <span class="cp-sub">queued…</span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- About: the story -->
+    <section id="about" aria-labelledby="about-heading">
+      <p class="eyebrow">stage 01 · about</p>
+      <h2 id="about-heading">The story so far</h2>
+      <div class="about-grid">
+        <div class="about-prose" data-reveal>
+          <p>My path started in 2018 at <strong>QA InfoTech</strong>, performance-testing 34 enterprise applications with JMeter. The reporting around that work was slow and manual, so I automated it with Jenkins and Python, cutting the effort by 80%. That was my first real taste of what automation can do.</p>
+          <p>In 2019 I joined <strong>Amazon Web Services</strong> as a Cloud Support Engineer on the Deployment team. For six and a half years I worked inside customers' hardest problems: Kubernetes capacity, CI/CD pipelines, and Elastic Beanstalk, where I became a subject matter expert and led incident management and root cause analysis.</p>
+          <p>Since December 2025 I've been a Delivery Consultant in <strong>AWS Professional Services</strong>, helping Fortune 500 teams modernize. That includes upgrading 74+ Java applications with AWS Transform and Amazon Kiro, and turning what works into published guidance and open-source code that anyone can reuse.</p>
+        </div>
+        <ul class="principles" aria-label="What I care about">
+          <li class="principle" data-reveal>
+            <h3>Automate the toil</h3>
+            <p>Removed 80% of manual testing effort, then built CI/CD pipelines that cut deployment errors.</p>
+          </li>
+          <li class="principle" data-reveal>
+            <h3>Fix the root cause</h3>
+            <p>Led RCA as Elastic Beanstalk SME, reducing global service escalations by 6%.</p>
+          </li>
+          <li class="principle" data-reveal>
+            <h3>Grow the people around me</h3>
+            <p>50+ hiring interviews, 5+ engineers mentored into SMEs, junior consultants coached.</p>
+          </li>
+          <li class="principle" data-reveal>
+            <h3>Share what I learn</h3>
+            <p>Authored AWS Prescriptive Guidance and an open-source reference implementation.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Impact: numbers from the journey -->
+    <section id="impact" aria-labelledby="impact-heading">
+      <p class="eyebrow">stage 02 · metrics</p>
+      <h2 id="impact-heading">Impact, by the numbers</h2>
+      <ul class="stats">
+        <li class="stat" data-reveal><span class="stat-num" data-count="8" data-suffix="+">8+</span><span class="stat-label">years in cloud &amp; DevOps</span></li>
+        <li class="stat" data-reveal><span class="stat-num" data-count="74" data-suffix="+">74+</span><span class="stat-label">applications modernized</span></li>
+        <li class="stat" data-reveal><span class="stat-num" data-count="30" data-suffix="%">30%</span><span class="stat-label">over-provisioning cost cut</span></li>
+        <li class="stat" data-reveal><span class="stat-num" data-count="1200" data-prefix="~">~1,200</span><span class="stat-label">customer cases deflected per quarter</span></li>
+        <li class="stat" data-reveal><span class="stat-num" data-count="80" data-suffix="%">80%</span><span class="stat-label">manual testing effort removed</span></li>
+        <li class="stat" data-reveal><span class="stat-num" data-count="50" data-suffix="+">50+</span><span class="stat-label">hiring interviews conducted</span></li>
+        <li class="stat" data-reveal><span class="stat-num" data-count="34">34</span><span class="stat-label">enterprise apps performance-tested</span></li>
+        <li class="stat" data-reveal><span class="stat-num" data-count="5">5</span><span class="stat-label">professional certifications</span></li>
+      </ul>
+    </section>
+
+    <!-- Experience: the journey as pipeline chapters -->
+    <section id="experience" aria-labelledby="experience-heading">
+      <p class="eyebrow">stage 03 · journey</p>
+      <h2 id="experience-heading">Experience</h2>
+      <ol class="timeline">
+        <li class="timeline-entry">
+          <p class="chapter">Chapter 03 · Delivering at scale</p>
+          <h3 class="entry-title">Delivery Consultant – DevOps</h3>
+          <p class="entry-employer">AWS Professional Services</p>
+          <p class="entry-meta">
+            <time class="entry-dates">Dec 2025 - Present</time>
+            <span class="entry-location">India</span>
+          </p>
+          <p class="chapter-lede">I moved from supporting deployments to designing them. Now I help Fortune 500 teams modernize, and I write down what works so others can reuse it.</p>
+          <details class="build-log" open>
+            <summary>Build log · 5 steps</summary>
+            <ul class="entry-achievements">
+              <li>Delivered enterprise cloud engagements for Fortune 500 clients, including application modernization, data center migrations to AWS, and large-scale Java platform upgrades (Java 8 to Java 17/21/25 LTS) across 74+ applications using AWS Transform (ATX) CLI and Amazon Kiro.</li>
+              <li>Contributed to a large-scale Application Modernization Platform (AMP) engagement, implementing trunk-based development workflows, GitHub Actions CI/CD pipelines, and reusable shared modules for deployment orchestration.</li>
+              <li>Authored AWS Prescriptive Guidance (APG) article on AI-powered autonomous modernization factory and published companion open-source IaC reference implementation on aws-samples (GitHub).</li>
+              <li>Mentored junior consultants in the ProServe DevOps &amp; AI-Assisted Engineering AoD program; co-delivered tech sessions on serverless architecture.</li>
+              <li>Served as SME for the AWS Certified AI Business Strategist (AIB-C01) certification exam, receiving recognition from AWS Certification leadership.</li>
+            </ul>
+          </details>
+        </li>
+        <li class="timeline-entry">
+          <p class="chapter">Chapter 02 · Learning the cloud from the inside</p>
+          <h3 class="entry-title">Cloud Support Engineer 2 – Deployment</h3>
+          <p class="entry-employer">Amazon Web Services</p>
+          <p class="entry-meta">
+            <time class="entry-dates">Jul 2019 - Dec 2025</time>
+            <span class="entry-location">India</span>
+          </p>
+          <p class="chapter-lede">Six and a half years deep in Kubernetes, CI/CD and Elastic Beanstalk. I owned incidents end to end and helped other engineers grow into experts.</p>
+          <details class="build-log">
+            <summary>Build log · 5 steps</summary>
+            <ul class="entry-achievements">
+              <li>Optimized Kubernetes worker node provisioning with Karpenter consolidation, PDBs, and pod affinities, reducing over-provisioning cost by 30%.</li>
+              <li>Designed and maintained CI/CD pipelines for seamless automation, reducing deployment errors and achieving &lt;1s P99 latency for application availability.</li>
+              <li>Acted as Elastic Beanstalk SME and led incident management and root cause analysis (RCA), collaborating with development teams to implement preventive measures that reduced global service escalations by 6%, deflecting ~1,200 customer cases per quarter.</li>
+              <li>Served as Point of Contact for GenAI services (Amazon Q Developer, Amazon CodeGuru) to handle new customer onboarding.</li>
+              <li>Conducted 50+ hiring interviews for DevOps and Networking roles; mentored 5+ engineers to become subject matter experts in core AWS services.</li>
+            </ul>
+          </details>
+        </li>
+        <li class="timeline-entry">
+          <p class="chapter">Chapter 01 · Where it started</p>
+          <h3 class="entry-title">Software Engineer</h3>
+          <p class="entry-employer">QA InfoTech</p>
+          <p class="entry-meta">
+            <time class="entry-dates">Jun 2018 - Jul 2019</time>
+            <span class="entry-location">India</span>
+          </p>
+          <p class="chapter-lede">I performance-tested enterprise apps, then automated the reporting around them. It was my first taste of what automation can do.</p>
+          <details class="build-log">
+            <summary>Build log · 3 steps</summary>
+            <ul class="entry-achievements">
+              <li>Executed comprehensive performance testing across 34 enterprise applications using JMeter to validate stringent SLAs and performance KPIs.</li>
+              <li>Built Python-based automated report generation and customer-facing display dashboards to deliver real-time testing analytics.</li>
+              <li>Reduced manual testing and reporting effort by 80% through streamlined Jenkins and Python workflow automation.</li>
+            </ul>
+          </details>
+        </li>
+      </ol>
+      <p class="education" data-reveal><span class="edu-label">Build origin</span> Bachelor of Technology (B.Tech), Computer Science · Krishna Institute of Engineering &amp; Technology (KIET), India · 2018</p>
+    </section>
+
+    <!-- Skills: the toolbox -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <p class="eyebrow">stage 04 · toolbox</p>
+      <h2 id="skills-heading">Skills</h2>
+      <div class="skills-group" data-reveal>
+        <h3 class="skills-category">DevOps, IaC &amp; Scripting</h3>
+        <ul class="skills-list">
+          <li>Terraform</li>
+          <li>CloudFormation</li>
+          <li>CDK</li>
+          <li>GitHub Actions</li>
+          <li>Jenkins</li>
+          <li>Shell Scripting</li>
+          <li>Git</li>
+          <li>AWS Transform (ATX)</li>
+          <li>CodeGuru</li>
+        </ul>
+      </div>
+      <div class="skills-group" data-reveal>
+        <h3 class="skills-category">Cloud &amp; Containers</h3>
+        <ul class="skills-list">
+          <li>AWS (EC2, EKS, S3, Lambda, RDS, VPC, Elastic Beanstalk)</li>
+          <li>Docker</li>
+          <li>Kubernetes</li>
+          <li>Karpenter</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects: open source & writing -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <p class="eyebrow">stage 05 · artifacts</p>
+      <h2 id="projects-heading">Projects</h2>
+      <ul class="projects-list">
+        <li class="project" data-reveal>
+          <p class="project-kind">Open source · aws-samples</p>
+          <h3 class="project-name">
+            <a href="https://github.com/aws-samples/sample-autonomous-modernization-factory" target="_blank" rel="noopener noreferrer">sample-autonomous-modernization-factory</a>
+          </h3>
+          <p class="project-description">Open-source reference implementation under <code>aws-samples</code>. Architected open-source reference implementation for autonomous modernization factory workflows to support community cloud adoption.</p>
+        </li>
+        <li class="project" data-reveal>
+          <p class="project-kind">Writing · AWS Prescriptive Guidance</p>
+          <h3 class="project-name">AI-powered autonomous modernization factory</h3>
+          <p class="project-description">An APG article on running modernization as a repeatable, AI-assisted factory. The repository above is its companion IaC implementation.</p>
+        </li>
+        <li class="project" data-reveal>
+          <p class="project-kind">Community · Mentoring &amp; talks</p>
+          <h3 class="project-name">Sharing what I learn</h3>
+          <p class="project-description">Mentoring in the ProServe DevOps &amp; AI-Assisted Engineering AoD program, co-delivering tech sessions on serverless architecture, and serving as SME for the AWS Certified AI Business Strategist exam.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" aria-labelledby="certs-heading">
+      <p class="eyebrow">stage 06 · checks</p>
+      <h2 id="certs-heading">Certifications</h2>
+      <ul class="certifications-list">
+        <li data-reveal>AWS Certified DevOps Professional</li>
+        <li data-reveal>AWS Certified Solutions Architect &ndash; Associate</li>
+        <li data-reveal>AWS Certified SysOps Administrator Associate</li>
+        <li data-reveal>AWS Certified AI Practitioner</li>
+        <li data-reveal>HashiCorp Certified: Terraform Associate (004)</li>
+      </ul>
+    </section>
+
+    <!-- Now -->
+    <section id="now" aria-labelledby="now-heading">
+      <p class="eyebrow">stage 07 · running now</p>
+      <h2 id="now-heading">What I'm focused on now</h2>
+      <ul class="now-list">
+        <li data-reveal>Modernizing enterprise Java estates (Java 8 to 17/21/25) with AWS Transform and Amazon Kiro.</li>
+        <li data-reveal>AI-assisted engineering, and mentoring consultants who are adopting it.</li>
+        <li data-reveal>Building in the open on aws-samples and writing guidance others can reuse.</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <p class="eyebrow">stage 08 · deploy</p>
+      <h2 id="contact-heading">Contact</h2>
+      <p class="contact-lede">Working on cloud modernization, platform engineering, or CI/CD? I'm always glad to talk shop.</p>
+      <a class="btn btn-primary btn-lg" href="mailto:arpitagarwal1308@gmail.com">Say hello</a>
+      <address class="contact-details">
+        <ul class="contact-list">
+          <li class="contact-location">Gurugram, Haryana, India</li>
+          <li class="contact-email">
+            <a href="mailto:arpitagarwal1308@gmail.com">arpitagarwal1308@gmail.com</a>
+          </li>
+          <li class="contact-phone">
+            <a href="tel:+91-8299619940">+91-8299619940</a>
+          </li>
+          <li class="contact-linkedin">
+            <a href="https://www.linkedin.com/in/00arpit00" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </li>
+        </ul>
+      </address>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Arpit Agarwal · Hand-built with HTML, CSS and vanilla JavaScript. No build step.</p>
+  </footer>
+
+  <!-- Classic (non-module) scripts loaded with defer so the DOM is parsed first. Relative paths for file:// and static hosts. -->
+  <script defer src="js/main.js"></script>
+  <script defer src="js/animations.js"></script>
+</body>
+</html>

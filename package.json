@@ -1,0 +1,9 @@
+{
+  "name": "interactive-resume-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Single-folder, build-free static resume website for Arpit Agarwal. NOTE: the deployed static site is only index.html + css/ + js/; this package.json and the tests/ folder are dev-only (no-build test harness) and are NOT required at runtime or when hosting the site.",
+  "scripts": {
+    "test": "node tests/run-all.js"
+  }
+}
